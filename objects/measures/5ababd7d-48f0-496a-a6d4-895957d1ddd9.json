@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "5ababd7d-48f0-496a-a6d4-895957d1ddd9",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "CMG PLP",
+    "qDef": "AVG(\r\n\t$(=\n    \tIF(GetSelectedCount(Fecha)=0 AND GetSelectedCount(Fecha_Hora)=0 AND GetSelectedCount(Mes)=0 AND GetSelectedCount(Año)=0,\n    \tvFiltrosPLP,\n        vSinFiltrosPLP\n    \t)\n    )\nret_pot)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='USD/MWh'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "CMG PLP",
+    "description": "",
+    "tags": []
+  }
+}

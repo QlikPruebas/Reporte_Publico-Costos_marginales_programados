@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "9b11ecc8-cf8e-4d8b-b5e1-4b898a9ad2c0",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Comparación - CMG",
+    "qDef": "AVG(\r\n\t$(=\n    \tIF(GetSelectedCount(Fecha)=0 AND GetSelectedCount(Fecha_Hora)=0 AND GetSelectedCount(Mes)=0 AND GetSelectedCount(Año)=0 AND GetSelectedCount(nombre_barra)=0,\n    \tvFiltrosComparacion,\n        vSinFiltroComparativo\n    \t)\n    )\nret_pot)\n",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='USD/MWh'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Comparación - CMG",
+    "description": "",
+    "tags": []
+  }
+}

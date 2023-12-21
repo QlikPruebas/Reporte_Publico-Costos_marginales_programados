@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "8b26eecf-a5a5-4f13-b822-89f1aeaf13f9",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "CMG PCP",
+    "qDef": "AVG(\r\n\t$(=\n    \tIF(GetSelectedCount(Fecha)=0 AND GetSelectedCount(Fecha_Hora)=0 AND GetSelectedCount(Mes)=0 AND GetSelectedCount(Año)=0,\n    \tvFiltrosPCP,\n        vSinFiltrosPCP\n    \t)\n    )\nret_pot)\n",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='USD/MWh'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "CMG PCP",
+    "description": "",
+    "tags": []
+  }
+}

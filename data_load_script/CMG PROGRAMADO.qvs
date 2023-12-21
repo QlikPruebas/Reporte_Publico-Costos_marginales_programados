@@ -1,0 +1,19 @@
+///$tab CMG PROGRAMADO
+COSTO_MARGINAL_PROGRAMADO:
+LOAD
+    %KEY_BLOQUE_FUENTE_VERSION,
+    %KEY_DICCIONARIO_BARRAS,
+    nombre_barra,
+    ret_pot,
+    unidad,
+    fecha_hora,
+    intervalo,
+    fuente,
+    fecha_version,
+    numero_version,
+    ret_ener,
+    bloque,
+    etapa,
+    hidro
+FROM [lib://STG/PLATAFORMA PROGRAMACION/STG_PRG_CMG_PROGRAMADO.qvd]
+(qvd);
